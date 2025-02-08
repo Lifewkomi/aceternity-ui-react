@@ -5,7 +5,7 @@ import { LampContainer } from "../LampEffect/LampEffect"; // Ensure this path is
 export default function LampDemo() {
   return (
     <LampContainer>
-      <motion.h1
+      {/* <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
@@ -15,8 +15,8 @@ export default function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Build lamps <br /> the right way
-      </motion.h1>
+        TUKULE <br /> <span className=" text-3xl">Swahili for Let's Eat</span>
+      </motion.h1> */}
     </LampContainer>
   );
 }

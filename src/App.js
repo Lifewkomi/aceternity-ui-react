@@ -8,10 +8,11 @@ import LampEffectDemo from "./components/LampEffect/Demo"
 import BentoGridDemo from './components/BentoGrid/Demo'
 import InfiniteMovingCardsDemo from "./components/InfiniteMovingCards/Demo";
 import SignupFormDemo from "./components/SignupForm/Demo";
+import {NavbarMenu} from "./components/NavbarMenu/Demo.js";
 
 export default function App() {
   return (
-    <main className="App" >
+    <main className="App h-[200vh]" >
       {/* <NavbarDemo /> */}
       {/* <LayoutGridDemo /> */}
       {/* <ThreeDCardDemo /> */}
@@ -21,8 +22,8 @@ export default function App() {
       {/* <LampEffectDemo /> */}
       {/* <BentoGridDemo /> */}
       {/* <InfiniteMovingCardsDemo /> */}
-      <SignupFormDemo />
-
+      {/* <SignupFormDemo /> */}
+      <NavbarMenu />
     </main>
   )
 }

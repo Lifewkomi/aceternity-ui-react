@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
-import { cn } from "../lib/utils"; // Update the import path to match your project structure
+import { HoveredLink, Menu, MenuItem, ProductItem } from "../NavbarMenu/Navbar";
+import { cn } from "../../lib/util";
 
-export function NavbarDemo() {
+export function NavbarMenu() {
   return (
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2" />
@@ -13,8 +13,8 @@ export function NavbarDemo() {
   );
 }
 
-function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null);
+function Navbar({ className }) {
+  const [active, setActive] = useState(null);
   return (
     <div
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
